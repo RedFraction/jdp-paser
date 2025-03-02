@@ -19,8 +19,7 @@ public class App {
                 {0, -20, -20, -20, -20, -20, -20, -20, -10,  -5, 0}   // y
         };
 
-        new JDPParser().export("333", u, d, "testtesttest");
+        new JDPParser().export("output", u, d, "testtesttest");
 
-        JDPParser.printFile("output.jdp");
     }
 }
